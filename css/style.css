@@ -209,6 +209,20 @@ nav{
     align-items:center;
     justify-content:space-between;
 }
+.nav-button{
+    background:#8A6B45;
+    color:white !important;
+    padding:12px 22px;
+    border-radius:30px;
+}
+
+.nav-button:hover{
+    background:#6F5639;
+}
+
+.nav-button::after{
+    display:none;
+}
 
 .logo a{
     text-decoration:none;
