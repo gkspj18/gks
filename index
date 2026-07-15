@@ -1,310 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GKS Architects</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
-}
-
-html{
-    scroll-behavior:smooth;
-}
-
-body{
-    background:#f7f7f7;
-    color:#222;
-}
-
-/* Navigation */
-
-header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    background:#ffffff;
-    box-shadow:0 2px 15px rgba(0,0,0,.08);
-    z-index:1000;
-}
-
-nav{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-    height:75px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-.logo{
-    font-size:28px;
-    font-weight:700;
-    letter-spacing:2px;
-}
-
-.menu{
-    display:flex;
-    list-style:none;
-}
-
-.menu li{
-    margin-left:35px;
-}
-
-.menu a{
-    text-decoration:none;
-    color:#333;
-    font-weight:500;
-    transition:.3s;
-}
-
-.menu a:hover{
-    color:#6b8e23;
-}
-
-/* Hero */
-
-.hero{
-    height:100vh;
-    background:url("https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1600&q=80") center center/cover;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    position:relative;
-}
-
-.hero::before{
-    content:"";
-    position:absolute;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,.45);
-}
-
-.hero-content{
-    position:relative;
-    color:white;
-    z-index:2;
-}
-
-.hero h1{
-    font-size:65px;
-    margin-bottom:20px;
-}
-
-.hero p{
-    font-size:22px;
-    margin-bottom:35px;
-}
-
-.btn{
-    display:inline-block;
-    padding:15px 40px;
-    background:#6b8e23;
-    color:white;
-    text-decoration:none;
-    border-radius:40px;
-}
-
-/* Sections */
-
-section{
-    padding:90px 10%;
-}
-
-h2{
-    text-align:center;
-    margin-bottom:50px;
-    font-size:38px;
-}
-
-.cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:30px;
-}
-
-.card{
-    background:white;
-    padding:35px;
-    border-radius:15px;
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
-}
-
-.card h3{
-    margin-bottom:15px;
-}
-
-.about{
-    text-align:center;
-    max-width:900px;
-    margin:auto;
-    line-height:1.8;
-}
-
-/* Footer */
-
-footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:30px;
-}
-
-@media(max-width:768px){
-
-.hero h1{
-    font-size:42px;
-}
-
-.menu{
-    display:none;
-}
-
-}
-
-</style>
-
-</head>
-
-<body>
-
-<header>
-
-<nav>
-
-<div class="logo">GKS</div>
-
-<ul class="menu">
-<li><a href="#">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-
-</nav>
-
-</header>
-
-<section class="hero">
-
-<div class="hero-content">
-
-<h1>GKS Architects</h1>
-
-<p>Designing spaces that inspire generations.</p>
-
-<a href="#projects" class="btn">View Projects</a>
-
-</div>
-
-</section>
-
-<section id="about">
-
-<h2>About Us</h2>
-
-<div class="about">
-
-We believe architecture should be timeless, functional, and deeply connected to its surroundings. Our work spans residential homes, farmhouses, commercial spaces, interiors, and landscape design.
-
-</div>
-
-</section>
-
-<section id="services">
-
-<h2>Our Services</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>Architectural Design</h3>
-<p>Creative and practical building designs for every lifestyle.</p>
-</div>
-
-<div class="card">
-<h3>Interior Design</h3>
-<p>Elegant interiors focused on comfort and functionality.</p>
-</div>
-
-<div class="card">
-<h3>Farmhouse Planning</h3>
-<p>Nature-inspired spaces with sustainable architecture.</p>
-</div>
-
-<div class="card">
-<h3>Project Management</h3>
-<p>End-to-end execution from concept to completion.</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="projects">
-
-<h2>Featured Projects</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>Luxury Farmhouse</h3>
-<p>Modern farmhouse blending nature with architecture.</p>
-</div>
-
-<div class="card">
-<h3>Private Villa</h3>
-<p>Contemporary residence with open living spaces.</p>
-</div>
-
-<div class="card">
-<h3>Commercial Building</h3>
-<p>Smart commercial development with sustainable planning.</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="contact">
-
-<h2>Contact</h2>
-
-<div class="about">
-
-Email: info@gksarchitects.com
-
-<br><br>
-
-Phone: +91 98765 43210
-
-<br><br>
-
-Chennai, Tamil Nadu
-
-</div>
-
-</section>
-
-<footer>
-
-© 2026 GKS Architects. All Rights Reserved.
-
-</footer>
-
-</body>
-</html>
+gks/
+│
+├── index.html
+├── about.html
+├── services.html
+├── projects.html
+├── consultancy.html
+├── gallery.html
+├── contact.html
+│
+├── css/
+│   ├── style.css
+│   └── responsive.css
+│
+├── js/
+│   └── main.js
+│
+├── images/
+│   ├── hero/
+│   ├── hotels/
+│   ├── villas/
+│   ├── resorts/
+│   ├── interiors/
+│   └── gallery/
+│
+├── projects/
+│   ├── hyatt-regency.html
+│   ├── svatma-hotel.html
+│   ├── promenade.html
+│   ├── grt.html
+│   ├── gbj.html
+│   └── temple-bay.html
+│
+└── assets/
