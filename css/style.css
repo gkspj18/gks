@@ -262,21 +262,23 @@ nav a{
     transition:.3s;
 }
 
-nav ul li{
+nav ul{
+
     display:flex;
     align-items:center;
     gap:40px;
     list-style:none;
     margin:0;
     padding:0;
+
 }
 
-nav a{
-    color:#333;
-    font-size:15px;
-    font-weight:500;
-    transition:.3s;
+nav ul li{
+    margin:0;
+    padding:0;
 }
+
+
 
 nav a:hover{
     color:#8A6B45;
@@ -394,23 +396,7 @@ margin-top:20px;
 flex-wrap:wrap;
 
 }
-.button{
 
-background:#8A6B45;
-
-color:white;
-
-padding:16px 36px;
-
-border-radius:40px;
-
-}
-
-.button:hover{
-
-background:#6F5639;
-
-}
 
 .button-outline{
 
