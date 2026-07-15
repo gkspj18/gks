@@ -905,3 +905,32 @@ display:block;
 transform:scale(1.08);
 
 }
+.scroll-down{
+
+position:absolute;
+
+bottom:30px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+font-size:42px;
+
+color:white;
+
+animation:bounce 2s infinite;
+
+}
+
+@keyframes bounce{
+
+0%,100%{
+transform:translate(-50%,0);
+}
+
+50%{
+transform:translate(-50%,12px);
+}
+
+}
