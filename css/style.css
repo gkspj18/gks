@@ -15,9 +15,10 @@ html{
 
 body{
     font-family:'Montserrat',sans-serif;
-    color:#333;
-    background:#fff;
-    line-height:1.7;
+    color:#2B2B2B;
+    background:#F7F6F3;
+    line-height:1.8;
+    font-size:16px;
 }
 h1,h2,h3,h4,h5{
     font-family:'Cormorant Garamond',serif;
@@ -47,16 +48,37 @@ section{
 }
 
 .section-title{
-    font-size:48px;
-    text-align:center;
-    margin-bottom:20px;
+
+font-size:56px;
+
+font-weight:600;
+
+letter-spacing:1px;
+
+margin-bottom:20px;
+
+text-align:center;
+
+color:#222;
+
 }
 
 .section-subtitle{
-    max-width:850px;
-    margin:auto;
-    text-align:center;
-    color:#666;
+
+max-width:850px;
+
+margin:auto;
+
+text-align:center;
+
+font-size:18px;
+
+color:#777;
+
+line-height:1.9;
+
+margin-bottom:50px;
+
 }
 
 .button{
@@ -81,26 +103,19 @@ section{
 }
 
 .card{
-    background:#fff;
-    border-radius:16px;
-    padding:35px 25px;
-    text-align:center;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
-    transition:.3s;
-}
 
-.card:hover{
-    transform:translateY(-8px);
-}
+background:white;
 
-.card h3{
-    font-size:42px;
-    color:#8A6B45;
-    margin-bottom:10px;
-}
+padding:40px;
 
-.card p{
-    color:#666;
+border-radius:20px;
+
+box-shadow:0 20px 50px rgba(0,0,0,.08);
+
+transition:.35s;
+
+border-top:4px solid #8A6B45;
+
 }
 /* ===============================
    SERVICES
