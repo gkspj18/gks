@@ -665,3 +665,26 @@ section{
 scroll-margin-top:90px;
 
 }
+footer hr{
+    margin:40px auto;
+    border:none;
+    border-top:1px solid rgba(255,255,255,.15);
+    width:80%;
+}
+
+.footer-info{
+    display:flex;
+    justify-content:center;
+    gap:80px;
+    flex-wrap:wrap;
+    margin-bottom:40px;
+}
+
+.footer-info div{
+    min-width:180px;
+}
+
+.copyright{
+    color:#aaa;
+    font-size:14px;
+}
