@@ -852,3 +852,56 @@ grid-template-columns:1fr;
 }
 
 }
+/* ===============================
+GALLERY
+=============================== */
+
+#gallery{
+
+background:#fafafa;
+
+}
+
+.gallery-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:25px;
+
+margin-top:60px;
+
+}
+
+.gallery-item{
+
+overflow:hidden;
+
+border-radius:18px;
+
+box-shadow:0 20px 40px rgba(0,0,0,.08);
+
+cursor:pointer;
+
+}
+
+.gallery-item img{
+
+height:300px;
+
+width:100%;
+
+object-fit:cover;
+
+transition:.45s;
+
+display:block;
+
+}
+
+.gallery-item:hover img{
+
+transform:scale(1.08);
+
+}
