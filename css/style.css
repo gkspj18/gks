@@ -533,3 +533,56 @@ footer p{
     color:#ddd;
     margin:8px 0;
 }
+/* =====================================
+CLIENTS
+===================================== */
+
+#clients{
+
+padding:90px 0;
+
+background:white;
+
+}
+
+.client-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+margin-top:60px;
+
+}
+
+.client-box{
+
+background:#fafafa;
+
+border:1px solid #ececec;
+
+padding:35px;
+
+text-align:center;
+
+font-size:22px;
+
+font-weight:600;
+
+border-radius:15px;
+
+transition:.35s;
+
+}
+
+.client-box:hover{
+
+background:#8A6B45;
+
+color:white;
+
+transform:translateY(-8px);
+
+}
