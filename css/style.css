@@ -44,7 +44,9 @@ a{
 }
 
 section{
-    padding:100px 0;
+
+padding:120px 0;
+
 }
 
 .section-title{
@@ -82,16 +84,31 @@ margin-bottom:50px;
 }
 
 .button{
-    display:inline-block;
-    background:#8A6B45;
-    color:#fff;
-    padding:15px 35px;
-    border-radius:40px;
-    transition:.3s;
+
+display:inline-block;
+
+background:#8A6B45;
+
+padding:18px 42px;
+
+color:white;
+
+font-weight:600;
+
+border-radius:50px;
+
+transition:.35s;
+
+box-shadow:0 15px 35px rgba(138,107,69,.35);
+
 }
 
 .button:hover{
-    background:#6E5336;
+
+background:#6F5639;
+
+transform:translateY(-3px);
+
 }
 /* ---------- About Cards ---------- */
 
@@ -448,11 +465,11 @@ background:white;
 
 }
 
-.why-card:hover{
+.why-.card:hover{
 
-box-shadow:0 15px 35px rgba(0,0,0,.08);
+transform:translateY(-12px);
 
-transform:translateY(-8px);
+box-shadow:0 30px 60px rgba(0,0,0,.12);
 
 }
 
