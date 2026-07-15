@@ -65,3 +65,34 @@ section{
 .button:hover{
     background:#6E5336;
 }
+/* ---------- About Cards ---------- */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-top:50px;
+}
+
+.card{
+    background:#fff;
+    border-radius:16px;
+    padding:35px 25px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    font-size:42px;
+    color:#8A6B45;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#666;
+}
