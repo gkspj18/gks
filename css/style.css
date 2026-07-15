@@ -19,7 +19,14 @@ body{
     background:#fff;
     line-height:1.7;
 }
+h1,h2,h3,h4,h5{
+    font-family:'Cormorant Garamond',serif;
+    font-weight:600;
+}
 
+p{
+    color:#666;
+}
 img{
     width:100%;
     display:block;
@@ -159,7 +166,9 @@ backdrop-filter:blur(12px);
 box-shadow:0 3px 15px rgba(0,0,0,.08);
 z-index:1000;
 }
-
+section:first-of-type{
+    padding-top:140px;
+}
 nav{
 
 max-width:1200px;
@@ -218,5 +227,58 @@ transition:.3s;
 nav a:hover{
 
 color:#8A6B45;
+
+}
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1800&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+    padding:0 20px;
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:72px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    color:white;
+    font-size:22px;
+    margin-bottom:35px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:44px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+nav ul{
+    display:none;
+}
+
+.section-title{
+    font-size:38px;
+}
 
 }
