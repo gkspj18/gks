@@ -210,22 +210,35 @@ nav{
     justify-content:space-between;
 }
 
-.logo{
+.logo a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.logo-title{
     font-family:'Cormorant Garamond',serif;
-    font-size:34px;
+    font-size:40px;
     font-weight:700;
+    letter-spacing:3px;
     color:#222;
+    line-height:1;
 }
 
-.logo span{
+.logo-subtitle{
+    font-size:11px;
+    letter-spacing:5px;
     color:#8A6B45;
+    margin-top:4px;
 }
 
-nav ul{
-    display:flex;
-    align-items:center;
-    list-style:none;
-    gap:35px;
+nav a{
+    color:#333;
+    font-size:15px;
+    font-weight:600;
+    letter-spacing:.5px;
+    position:relative;
+    padding:8px 0;
+    transition:.3s;
 }
 
 nav ul li{
@@ -242,6 +255,21 @@ nav a{
 
 nav a:hover{
     color:#8A6B45;
+}
+
+nav a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:0;
+    height:2px;
+    background:#8A6B45;
+    transition:.3s;
+}
+
+nav a:hover::after{
+    width:100%;
 }
 /* ===================================
    HERO
