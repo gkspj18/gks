@@ -688,3 +688,76 @@ footer hr{
     color:#aaa;
     font-size:14px;
 }
+/* =====================================
+ABOUT SECTION
+===================================== */
+
+.about-grid{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:70px;
+
+align-items:center;
+
+}
+
+.about-image img{
+
+border-radius:20px;
+
+box-shadow:0 25px 60px rgba(0,0,0,.15);
+
+}
+
+.small-title{
+
+letter-spacing:4px;
+
+font-size:13px;
+
+font-weight:600;
+
+color:#8A6B45;
+
+margin-bottom:20px;
+
+}
+
+.about-content h2{
+
+font-size:48px;
+
+margin-bottom:25px;
+
+line-height:1.2;
+
+}
+
+.about-content p{
+
+margin-bottom:20px;
+
+font-size:17px;
+
+line-height:1.9;
+
+}
+
+@media(max-width:900px){
+
+.about-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.about-content{
+
+text-align:center;
+
+}
+
+}
